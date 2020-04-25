@@ -156,7 +156,7 @@ var setBanner = function(msg)
 
 
 
-var penguinPromise = d3.json("/classData.json");
+var penguinPromise = d3.json("classData.json");
 
 penguinPromise.then(function(penguins)
 {
